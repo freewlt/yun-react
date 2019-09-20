@@ -1,0 +1,50 @@
+.ModalBox {
+  top: 30%;
+  width: 800px!important;
+}
+.ModalBox .ant-modal-content {
+  border: 2px solid #278bf6;
+  border-radius: 10px;
+}
+.ModalBox .ant-modal-content .ant-modal-close {
+  color: #fff;
+}
+.ModalBox .ant-modal-content .ant-modal-header {
+  text-align: center;
+  background: #278bf6;
+}
+.ModalBox .ant-modal-content .ant-modal-header .ant-modal-title {
+  color: #fff;
+}
+.ModalBox .ant-modal-content .ant-form-item-label {
+  width: 30%;
+  text-align: left;
+}
+.ModalBox .ant-modal-content .ant-form-item {
+  width: 86%;
+  margin: 0 auto;
+}
+.ModalBox .ant-modal-content .ant-form-item .ant-form-item-control-wrapper {
+  width: 100%;
+}
+.ModalBox .ant-modal-content .ant-modal-footer {
+  text-align: center;
+}
+.ModalBox .ant-modal-content .ant-modal-footer .ant-btn {
+  border-radius: 20px;
+}
+.ModalBox .ant-modal-content .seleBy {
+  margin-bottom: 10px;
+}
+.ModalBox .ant-transfer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ant-table-pagination.ant-pagination {
+  float: none;
+  text-align: center;
+}
+.modalMarketEdit {
+  width: 400px!important;
+}

@@ -1,0 +1,63 @@
+{
+  "results": [
+  {
+  "gender": "female",
+  "name": {
+  "title": "ms",
+  "first": "alexandra",
+  "last": "taylor"
+  },
+  "location": {
+  "street": "9288 kilmore street",
+  "city": "nelson",
+  "state": "wellington",
+  "postcode": 93591,
+  "coordinates": {
+  "latitude": "68.1201",
+  "longitude": "29.9533"
+  },
+  "timezone": {
+  "offset": "+2:00",
+  "description": "Kaliningrad, South Africa"
+  }
+  },
+  "email": "alexandra.taylor@example.com",
+  "login": {
+  "uuid": "0bc8e68e-eccf-4dd4-aa96-cf1ebba46fcb",
+  "username": "heavypeacock984",
+  "password": "mick",
+  "salt": "XW022qAP",
+  "md5": "bef99b08e6d8b8acdf6303019ec7f66c",
+  "sha1": "089465bfce32dd3f25c535037ff5ff84ba0b681f",
+  "sha256": "14163f6e2e270c20d55b14b3bce5a34464c4d10f78c4c50c242387cd972f4b80"
+  },
+  "dob": {
+  "date": "1948-10-29T13:39:48Z",
+  "age": 70
+  },
+  "registered": {
+  "date": "2017-06-06T03:04:45Z",
+  "age": 2
+  },
+  "phone": "(762)-497-7968",
+  "cell": "(007)-362-1573",
+  "id": {
+  "name": "",
+  "value": null
+  },
+  "picture": {
+  "large": "https://randomuser.me/api/portraits/women/70.jpg",
+  "medium": "https://randomuser.me/api/portraits/med/women/70.jpg",
+  "thumbnail": "https://randomuser.me/api/portraits/thumb/women/70.jpg"
+  },
+  "nat": "NZ"
+  }
+  ],
+  "info": {
+  "seed": "5e35b1d5bf18fb82",
+  "results": 1,
+  "page": 1,
+  "version": "1.2"
+  }
+  }
+  

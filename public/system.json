@@ -1,0 +1,247 @@
+{
+  "list": [
+    {
+      "id": "12029857621868544",
+      "createDate": "2016-05-16 15:26:44",
+      "modifyDate": "2016-07-21 18:40:24",
+      "flag": true,
+      "orders": "1",
+      "name": "油站基础信息",
+      "parentId": "12029684246118400",
+      "remark": "用户管理",
+      "url": "/system/basic/stationInfo",
+      "type": "1",
+      "large": "",
+      "medium": "/images/menuLf/basicInfo.png",
+      "mediumBg": "/images/menuLf/basicInfo.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": "",
+      "children": [
+        {
+          "id": "3741",
+          "url": "/system/basic/stationInfo",
+          "name": "油站信息"
+        },
+        {
+          "id": "3742",
+          "url": "/system/basic/oilApplication",
+          "name": "油品申请"
+        },
+        {
+          "id": "3743",
+          "url": "/system/basic/oilInfo",
+          "name": "油品信息"
+        },
+        {
+          "id": "3744",
+          "url": "/system/basic/tankConfig",
+          "name": "油罐配置"
+        },
+        {
+          "id": "3745",
+          "url": "/system/basic/oilFillerConfig",
+          "name": "加油点配置"
+        }
+      ]
+    },
+    {
+      "id": "12030099176030208",
+      "createDate": "2016-05-16 15:27:42",
+      "modifyDate": "2016-07-21 18:31:47",
+      "flag": true,
+      "orders": "2",
+      "name": "加油员配置",
+      "parentId": "12029684246118400",
+      "remark": "角色管理",
+      "url": "/system/operatorConfig/operateConfig",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/FuelManConfig.png",
+      "mediumBg": "images/menuLf/FuelManConfig.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": ""
+    },
+    {
+      "id": "12030299793784832",
+      "createDate": "2016-05-16 15:28:30",
+      "modifyDate": "2016-07-25 18:50:11",
+      "flag": true,
+      "orders": "3",
+      "name": "支付方式配置",
+      "parentId": "12029684246118400",
+      "remark": "权限管理",
+      "url": "/system/payMethod/payMethod",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/payMethodConfig.png",
+      "mediumBg": "images/menuLf/payMethodConfig.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": ""
+    },
+    {
+      "id": "1309901",
+      "createDate": "2016-05-19 14:15:11",
+      "modifyDate": "2016-07-20 14:55:49",
+      "flag": true,
+      "orders": "4",
+      "name": "班次模板管理",
+      "parentId": "12029684246118400",
+      "remark": "区域管理",
+      "url": "/admin/area/tree.jhtml",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/shiftTempManage.png",
+      "mediumBg": "images/menuLf/shiftTempManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": "",
+      "children": [
+        {
+          "id": "375441452",
+          "url": "/system/shiftTemplate/shiftList",
+          "name": "班次列表"
+        }
+      ]
+    },
+    {
+      "id": "13499244367314944",
+      "createDate": "2016-05-20 16:45:33",
+      "modifyDate": "2018-01-18 09:46:45",
+      "flag": true,
+      "orders": "5",
+      "name": "智能设备管理",
+      "parentId": "12029684246118400",
+      "remark": "",
+      "url": "/system/smartDevice/smartDevice",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/intelliDevManage.png",
+      "mediumBg": "images/menuLf/intelliDevManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": ""
+    },
+    {
+      "id": "15587894823485440",
+      "createDate": "2016-05-26 11:05:06",
+      "modifyDate": "2018-01-18 09:48:10",
+      "flag": true,
+      "orders": "6",
+      "name": "油品价格管理",
+      "parentId": "12029684246118400",
+      "remark": "会员管理",
+      "url": "/system/oilPrice/intendManually",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/oilPriceManage.png",
+      "mediumBg": "images/menuLf/oilPriceManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": "",
+      "children": [
+        {
+          "id": "3754414521",
+          "url": "/system/oilPrice/oilBaseRecord",
+          "name": "油品变价记录"
+        },
+        {
+          "id": "3754414522",
+          "url": "/system/oilPrice/intendManually",
+          "name": "手动变价申请"
+        },
+        {
+          "id": "3754414523",
+          "url": "/system/oilPrice/oilPrice",
+          "name": "油品价格配置"
+        }
+      ]
+    },
+    {
+      "id": "132365441262682112",
+      "createDate": "2017-04-13 16:57:23",
+      "modifyDate": "2018-01-18 09:47:32",
+      "flag": true,
+      "orders": "7",
+      "name": "优惠策略管理",
+      "parentId": "12029684246118400",
+      "remark": "",
+      "url": "/system/preferenPolicies/preferenPolicies",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/preferStateManage.png",
+      "mediumBg": "images/menuLf/preferStateManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": ""
+    },
+    {
+      "id": "12669476390567936",
+      "createDate": "2016-05-18 09:48:21",
+      "modifyDate": "2016-07-21 18:39:17",
+      "flag": true,
+      "orders": "8",
+      "name": "卸油管理",
+      "parentId": "12029684246118400",
+      "remark": "",
+      "url": "/admin/stdCodeType/list.jhtml",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/unloadManage.png",
+      "mediumBg": "images/menuLf/unloadManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": "",
+      "children": [
+        {
+          "id": "37544145211",
+          "url": "/system/unloadManage/unloadHandle",
+          "name": "卸油操作"
+        },
+        {
+          "id": "37544145222",
+          "url": "/system/unloadManage/unloadRecord",
+          "name": "卸油记录"
+        }
+      ]
+    },
+    {
+      "id": "31539903175065600",
+      "createDate": "2016-07-09 11:32:42",
+      "modifyDate": "2016-07-22 16:10:46",
+      "flag": true,
+      "orders": "9",
+      "name": "图片设置",
+      "parentId": "12029684246118400",
+      "remark": "",
+      "url": "/system/picSet/picSet",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/imageManage.png",
+      "mediumBg": "images/menuLf/imageManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": ""
+    },
+    {
+      "id": "232655505460297728",
+      "createDate": "2018-01-15 10:54:18",
+      "modifyDate": "2018-01-15 10:54:50",
+      "flag": true,
+      "orders": "10",
+      "name": "配置信息",
+      "parentId": "12029684246118400",
+      "remark": "油站支付配置",
+      "url": "/system/config/configInfo",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/configInfo.png",
+      "mediumBg": "images/menuLf/configInfo.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": ""
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+
+.containerRt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(93%);
+}
+.home {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  text-align: center;
+}
+.mainBox{
+  width:100%;
+  height: 100%;
+  padding: 10px 0 100px;
+  background: #fff;
+  overflow-y: auto;
+  .mainCon{
+    width:95%;
+    margin:0 auto 20px;
+    .ant-col{
+      margin-right:5px;
+    }
+    .selectBox{
+      width:15%;
+      .ant-form-item-control-wrapper{
+        width:80%;
+      }
+    }
+  }
+}
+
+//位置监控
+.PositionMonitor{
+  .mainCon{
+    height: 100%;
+    .title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom:20px;
+      .launch{
+        margin:0 10px;
+      }
+    }
+    .mapDeatil{
+      display: flex;
+      justify-content: space-between;
+      width:100%;
+      height:80%;
+      .locationMap{
+        width:100%;
+        height:100%;
+      }
+      .carBtnGroup{
+        width:14%;
+        margin: 0 auto;
+        text-align: center;
+        .pageDetail{
+          float: none;
+          text-align: center;
+          padding-top: 10px;
+          line-height: 3
+        }
+      }
+    }
+  }
+}
+
+//车队管理
+.driverManage{
+  .seleBy{
+    .btnGroup{
+      display: flex;
+      .ant-btn{
+        margin-left: 10px;
+      }
+    }
+  }
+}
+//车辆管理
+.carManage, .seleCarrier{
+  padding-top: 20px;
+  .seleBybtn{
+    padding-bottom: 10px;
+  }
+}
+//审批
+.approval, .attached{
+  padding-top: 20px;
+  .seleBybtn{
+    padding-bottom: 10px;
+  }
+}
+//会员管理
+.memberManage{
+  .seleBy{
+    padding-top: 10px;
+    .btnGroup{
+      display: flex;
+      .ant-btn{
+        margin-left: 10px;
+      }
+    }
+  }
+}
+//订单管理
+.orderManage{
+  .seleBy{
+    padding-top: 10px;
+    .ant-form-item{
+      margin-bottom: 10px;
+    }
+    .ant-calendar-picker{
+      min-width:164px!important;
+      margin-top: 3px;
+    }
+  }
+  .btnGroup{
+    margin-bottom: 10px;
+  }
+}
+
+//新增订单
+.addOrder{
+  .publicStatus{
+    button{
+      margin-right: 10px;
+    }
+  }
+  .position{
+    position:relative;
+  }
+  .addTask{
+    position: absolute;
+    right: 50%;
+    bottom: 20%;
+  }
+}
+//车辆查询
+.carQuery{
+  .mainCon{
+    padding-top: 10px;
+    .selectAddre{
+      width:8%;
+    }
+    .ant-advanced-search-form .ant-form-item {
+      margin-bottom: 10px;
+    }
+    .btnGroup{
+      justify-content: flex-end;
+    }
+    .seleBybtn{
+      margin: 10px 0;
+    }
+  }
+}
+
+//运输管理
+.transportManage{
+  .ant-tabs{
+    max-width:1600px;
+  }
+}
+.transportManage, .travelManage{
+  .ant-calendar-picker{
+    min-width:164px!important;
+    margin-top: 3px;
+  }
+}
+
+//通知营销
+.noticeMarket{
+  .mainCon{
+    padding-top:10px;
+  }
+}
+//通知记录
+.noticeRecord{
+  .mainCon {
+    .seleBy{
+      .ant-calendar-picker{
+        margin-top: 3px;
+      }
+      padding-top:10px;
+    }
+    .selectBox {
+      .ant-form-item-control-wrapper{
+        width:100%
+      }
+    }
+  }
+}
+//通知模板
+.noticeTemplate{
+  .seleBy{
+    padding:10px 0;
+  }
+}
+//订单报表
+.ordeReport{
+  .mainCon{
+    height:96%;
+    .echarts-for-react {
+      height:100%!important;
+    }
+  }
+}
+//车辆报表
+.caReport{
+  .mainCon{
+    height:95%;
+    .echarts-for-react {
+      height:50%!important;
+      &:last-child{
+        margin-bottom:100px;
+      }
+    }
+  }
+}
+//收款记录
+.paymentRecord{
+  .seleBy{
+    padding-top:10px;
+    .ant-calendar-picker{
+      margin-top: 3px;
+    }
+    .selectBox {
+      .ant-form-item-control-wrapper{
+        width:100%
+      }
+    }
+  }
+}
+//企业信息
+.systemInfo, .administrator{
+  padding-top: 20px;
+  .seleBybtn{
+    padding-bottom: 10px;
+  }
+}
+.addAdmin, .changePwd{
+  padding-top: 20px;
+}

@@ -1,0 +1,20 @@
+{
+  "code":200,
+  "data":{
+    "mapData" : {
+      "city": "北京",
+      "mapCenter":[116.418261, 39.921984],  //城市定位，经纬度定位只能选择1个
+      "mapZoom": 10, //地图缩放
+      "mapKey": "12345678d98aff1166e51962f108bb24",   //你的高德key
+      "status": { //是否支持放大拖拽
+        "zoomEnable": true,
+        "dragEnable": true,
+      },
+      "mapMaker" :[  //marker标记点(list)
+        {"lnglat":[116.401728,39.911984],"text":"要显示的内容1"},
+        {"lnglat":[116.436691,39.921984],"text":"要显示的内容2"}
+      ],
+      "plugins":["ToolBar"]
+    }
+  }
+}

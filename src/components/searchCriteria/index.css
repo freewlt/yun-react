@@ -1,0 +1,11 @@
+.ant-row {
+  display: flex;
+  justify-content: flex-start;
+}
+.searchInput {
+  width: 100%;
+}
+.searchBtn {
+  margin: 3px 0 0 10px;
+  border-radius: 40px;
+}

@@ -1,0 +1,158 @@
+{
+  "list": [
+    {
+      "id": "12030099176030208",
+      "createDate": "2016-05-16 15:27:42",
+      "modifyDate": "2016-07-21 18:31:47",
+      "flag": true,
+      "orders": "2",
+      "name": "卡片管理",
+      "parentId": "12029684246118400",
+      "remark": "角色管理",
+      "url": "/oilCard/cardManage/cardManage",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/orderQuery.png",
+      "mediumBg": "images/menuLf/orderQuery.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": "",
+      "children": [
+        {
+          "id": "2646",
+          "url": "/oilCard/cardManage/openCard",
+          "name": "开卡"
+        },
+        {
+          "id": "3754432351452",
+          "url": "/oilCard/cardManage/recharge",
+          "name": "充值"
+        },
+        {
+          "id": "37553535441452",
+          "url": "/oilCard/cardManage/modifyCard",
+          "name": "修改卡参数"
+        },
+        {
+          "id": "375435241452",
+          "url": "/oilCard/cardManage/oilUnitSet",
+          "name": "用油单位设置"
+        },
+        {
+          "id": "375442351452",
+          "url": "/oilCard/cardManage/cardOperate",
+          "name": "卡片操作"
+        },
+        {
+          "id": "37544231452",
+          "url": "/oilCard/cardManage/plungAccount",
+          "name": "扎帐"
+        },
+        {
+          "id": "37544132452",
+          "url": "/oilCard/cardManage/transferAccount",
+          "name": "主附卡转账"
+        }
+      ]
+    },
+    {
+      "id": "12030299793784832",
+      "createDate": "2016-05-16 15:28:30",
+      "modifyDate": "2016-07-25 18:50:11",
+      "flag": true,
+      "orders": "3",
+      "name": "查询统计",
+      "parentId": "12029684246118400",
+      "remark": "权限管理",
+      "url": "/manage/payMethod/payMethod",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/payMethodConfig.png",
+      "mediumBg": "images/menuLf/payMethodConfig.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": "",
+      "children": [
+        {
+          "id": "37544rt1452",
+          "url": "/oilCard/inquirStatistic/tradeQuery",
+          "name": "交易查询"
+        },
+        
+        {
+          "id": "37544e4541452",
+          "url": "/oilCard/inquirStatistic/cardDetail",
+          "name": "卡管明细查询"
+        },
+        {
+          "id": "375443251452",
+          "url": "/oilCard/inquirStatistic/cardEnquiry",
+          "name": "受理卡类查询"
+        },
+        {
+          "id": "37544341452",
+          "url": "/oilCard/inquirStatistic/invoiceManage",
+          "name": "发票管理"
+        },
+        {
+          "id": "3754431452",
+          "url": "/oilCard/inquirStatistic/whiteList",
+          "name": "白名单管理"
+        },
+        {
+          "id": "375441d452",
+          "url": "/oilCard/inquirStatistic/balckList",
+          "name": "黑名单查询"
+        }
+      ]
+    },
+    {
+      "id": "1309901",
+      "createDate": "2016-05-19 14:15:11",
+      "modifyDate": "2016-07-20 14:55:49",
+      "flag": true,
+      "orders": "4",
+      "name": "空白卡管理",
+      "parentId": "12029684246118400",
+      "remark": "区域管理",
+      "url": "/admin/area/tree.jhtml",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/shiftTempManage.png",
+      "mediumBg": "images/menuLf/shiftTempManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": "",
+      "children": [
+        {
+          "id": "37544145er5e42",
+          "url": "/oilCard/blankCardManage/inventoryManage",
+          "name": "空白卡库存管理"
+        },
+        {
+          "id": "375441452e334",
+          "url": "/oilCard/blankCardManage/inOutLog",
+          "name": "空白卡出入库日志"
+        }
+      ]
+    },
+    {
+      "id": "13499244367314944",
+      "createDate": "2016-05-20 16:45:33",
+      "modifyDate": "2018-01-18 09:46:45",
+      "flag": true,
+      "orders": "5",
+      "name": "卡管签到",
+      "parentId": "12029684246118400",
+      "remark": "",
+      "url": "/admin/areaProxy/tree.jhtml",
+      "type": "1",
+      "large": "",
+      "medium": "images/menuLf/intelliDevManage.png",
+      "mediumBg": "mages/menuLf/intelliDevManage.png",
+      "thumbnail": "",
+      "isParent": true,
+      "parentName": ""
+    }
+  ]
+}

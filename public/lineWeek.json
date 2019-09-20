@@ -1,0 +1,64 @@
+{
+  "code":200,
+  "data":{
+    "recordList":[
+      {"id":1, "price":158445.00,"lum":150,"num":154154,"url":"/images/busCircum/sale.png","title1":"销售额（￥）","title2":"升数（L）","title3":"笔次"},
+      {"id":3, "price":158445.00,"lum":150,"num":154154,"url":"/images/busCircum/nonOil.png","title1":"非油总金额","title2":"笔次","title3":"客单价"},
+      {"id":2, "price":158445.00,"lum":150,"num":154154,"url":"/images/busCircum/storeValue.png","title1":"累计储值","title2":"实体卡","title3":"电子会员"},
+      {"id":4, "price":158445,"lum":150,"url":"/images/busCircum/member.png","title1":"会员累计","title2":"新增"}
+    ],
+    "xdata":["周日","周一","周二","周三","周四","周五","周六"],
+    "ydata1":[200, 149, 170, 123, 256, 106, 135],
+    "ydata2":[106, 109, 190, 126, 287, 190, 175],
+    "ydata3":[152, 100, 180, 204, 187, 197, 156],
+    "dataSource" : [
+      {
+        "key": "1",
+        "name": "胡彦斌",
+        "age": 32,
+        "address": "10"
+      },
+      {
+        "key": "2",
+        "name": "胡彦斌",
+        "age": 32,
+        "address": "10"
+      },
+      {
+        "key": "3",
+        "name": "胡彦斌",
+        "age": 32,
+        "address": "10"
+      },
+      {
+        "key": "4",
+        "name": "胡彦斌",
+        "age": 32,
+        "address": "10"
+      },
+      {
+        "key": "5",
+        "name": "胡彦斌",
+        "age": 32,
+        "address": "10"
+      }
+    ],
+   "columns" : [
+      {
+        "title": "销售升数（L）",
+        "dataIndex": "name",
+        "key": "name"
+      },
+      {
+        "title": "销售升数（L）",
+        "dataIndex": "age",
+        "key": "age"
+      },
+      {
+        "title": "销售升数（L）",
+        "dataIndex": "address",
+        "key": "address"
+      }
+    ]
+  }
+}

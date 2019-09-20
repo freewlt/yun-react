@@ -1,0 +1,84 @@
+.main{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width:100%;
+  height:100%;
+  padding: 10px 0 100px;
+  background: #fff;
+  .statistic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:98%;
+    height:7.2rem;
+    margin:1rem auto;
+    .list{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      width:20%;
+      height:100%;
+      padding: 0 10px;
+      border-radius: 10px;
+      background: #286ee7;
+      &:first-child{
+        background:linear-gradient(to right,#b56ce5,#7782de);
+      }
+      &:nth-child(2){
+        background:linear-gradient(to right,#05d7fb,#25d652);
+      }
+      &:nth-child(3){
+        background:linear-gradient(to right,#f69640,#ffc37d);
+      }
+      &:last-child{
+        width:16%;
+        background:linear-gradient(to right,#eb648f,#f0679f);
+      }
+      .dataList{
+        text-align: center;
+        color: #fff;
+        .data{
+          display: block;
+          padding-top: 10px;
+          font-size:18px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .echartBox{
+    display: flex;
+    justify-content: flex-start;
+    width: 98%;
+    margin: 0 auto;
+    height:38.8rem;
+    .echartLf{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      width:68%;
+      height: 100%;
+      .echarts-for-react{
+        width:48%!important;
+        height:48%!important;
+        margin-right: 1rem;
+        background: #fff;
+        border:1px solid #ccc;
+        border-radius: 10px;
+      }
+    }
+    .echartRt{
+      width:32%;
+      height: 100%;
+      .echarts-for-react{
+        width:100%!important;
+        height:98%!important;
+        margin-right: 1rem;
+        background: #fff;
+        border:1px solid #ccc;
+        border-radius: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.containerRt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(93%);
+}
+.home {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  text-align: center;
+}
+.home h3 {
+  padding-top: 20%;
+}
