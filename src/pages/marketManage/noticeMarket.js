@@ -26,17 +26,14 @@ class NoticeMarket extends React.Component {
                                         placeholder=""/>
                                 </Form.Item>
                             </Col>
-                        </Row>
-                        <Row>
                             <Col>
                                 <Form.Item>
-                                    <Button className="choseCar" type="primary">
+                                    <Button className="choseCar">
                                     <Link to="/marketManage/noticeTemplate"> 
                                         选择模板  
                                         <span className="newIcon"></span>
                                     </Link> 
                                     </Button>
-                                    
                                 </Form.Item>
                             </Col>
                         </Row>
@@ -60,7 +57,7 @@ class NoticeMarket extends React.Component {
                         <Row>
                             <Col>
                                 <Form.Item label="选择客户">
-                                    <Button className="choseCar" type="primary" onClick={this.showModal}>
+                                    <Button className="choseCar" onClick={this.showModal}>
                                         选择
                                     </Button>
                                 </Form.Item>

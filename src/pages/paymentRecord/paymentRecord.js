@@ -211,7 +211,7 @@ class PaymentRecord extends React.Component {
                                 </Button>
                             </Col>
                             <Col className="btnGroup">
-                                <Button className="newBtn" type="primary">
+                                <Button className="searchBtn" type="primary">
                                     导出查询结果
                                 </Button>
                             </Col>

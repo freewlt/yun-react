@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactEcharts from 'echarts-for-react';
-import * as echarts from 'echarts';
 import axios from 'axios';
 import './index.css'
 
@@ -53,10 +52,7 @@ class EchartRt extends Component {
                         itemStyle: {
                             normal: {
                                 // @ts-ignore
-                                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                                    { offset: 0, color: '#ce7d86' },
-                                    { offset: 0.6, color: '#f29282' },
-                                ]),
+                                color:'#fa9a53',
                             },
                         },
                         data:item.ydata3
@@ -68,10 +64,7 @@ class EchartRt extends Component {
                         itemStyle: {
                             normal: {
                                 // @ts-ignore
-                                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                                    { offset: 0, color: '#64e5c6' },
-                                    { offset: 0.6, color: '#14f7ec' },
-                                ]),
+                                color: '#60dbbe',
                             },
                         },
                         label: {
@@ -88,10 +81,7 @@ class EchartRt extends Component {
                         itemStyle: {
                             normal: {
                                 // @ts-ignore
-                                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                                    { offset: 0, color: '#15ccee' },
-                                    { offset: 0.6, color: '#1870d1' },
-                                ]),
+                                color: '#5d91ff',
                             },
                         },
                         label: {

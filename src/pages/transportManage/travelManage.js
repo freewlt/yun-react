@@ -246,9 +246,7 @@ class TravelManage extends React.Component {
                                             查询
                                             <span className="searchIcon"></span>
                                         </Button>
-                                    </Col>
-                                    <Col className="btnGroup">
-                                        <Button className="newBtn" type="primary">
+                                        <Button className="searchBtn newBtn" type="primary">
                                             导出查询结果
                                         </Button>
                                     </Col>

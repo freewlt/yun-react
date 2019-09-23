@@ -44,10 +44,7 @@ class EchartLf extends Component {
                     itemStyle: {
                       normal: {
                         // @ts-ignore
-                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                          { offset: 0, color: '#14f7ec' },
-                          { offset: 0.6, color: '#64e5c6' },
-                        ]),
+                        color: '#60dbbe'
                       },
                     },
                     type: 'bar',
@@ -158,10 +155,7 @@ class EchartLf extends Component {
                     itemStyle: {
                       normal: {
                         // @ts-ignore
-                        color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                          { offset: 0, color: '#64e5c6' },
-                          { offset: 0.6, color: '#14f7ec' },
-                        ]),
+                        color: '#5d91ff',
                       },
                     },
                     label: {
@@ -178,10 +172,7 @@ class EchartLf extends Component {
                     itemStyle: {
                       normal: {
                         // @ts-ignore
-                        color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                          { offset: 0, color: '#15ccee' },
-                          { offset: 0.6, color: '#1870d1' },
-                        ]),
+                        color: '#60dbbe',
                       },
                     },
                     label: {

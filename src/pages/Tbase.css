@@ -1,3 +1,15 @@
+.containerRt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(93%);
+}
+.home {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  text-align: center;
+}
 .mainBox {
   width: 100%;
   height: 100%;
@@ -37,18 +49,27 @@
   height: 80%;
 }
 .PositionMonitor .mainCon .mapDeatil .locationMap {
-  width: 100%;
+  width: 85%;
   height: 100%;
 }
-.PositionMonitor .mainCon .mapDeatil .carBtnGroup {
+.PositionMonitor .mainCon .mapDeatil .carNoListBox {
   width: 14%;
-  margin: 0 auto;
-  text-align: center;
 }
-.PositionMonitor .mainCon .mapDeatil .carBtnGroup .pageDetail {
-  float: none;
+.PositionMonitor .mainCon .mapDeatil .carNoListBox .carBtnGroup {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.PositionMonitor .mainCon .mapDeatil .carNoListBox .carBtnGroup .searchBtn {
+  margin: 5px 0;
+}
+.PositionMonitor .mainCon .mapDeatil .carNoListBox .newBtn {
+  width: 90px;
+}
+.PositionMonitor .mainCon .mapDeatil .carNoListBox .pageDetail {
+  clear: both;
   text-align: center;
-  padding-top: 10px;
+  margin-top: 10px;
   line-height: 3;
 }
 .driverManage .seleBy .btnGroup {
@@ -101,10 +122,17 @@
 .addOrder .position {
   position: relative;
 }
+.addOrder .newBtn,
+.addOrder .reselect,
+.addOrder .allCar,
+.addOrder .choseCar {
+  border-radius: 40px;
+}
 .addOrder .addTask {
   position: absolute;
   right: 50%;
   bottom: 20%;
+  border-radius: 40px;
 }
 .carQuery .mainCon {
   padding-top: 10px;
@@ -121,7 +149,8 @@
 .carQuery .mainCon .seleBybtn {
   margin: 10px 0;
 }
-.transportManage .ant-tabs {
+.transportManage .ant-tabs,
+.travelManage .ant-tabs {
   max-width: 1600px;
 }
 .transportManage .ant-calendar-picker,
@@ -131,6 +160,15 @@
 }
 .noticeMarket .mainCon {
   padding-top: 10px;
+}
+.noticeMarket .mainCon .newBtn,
+.noticeMarket .mainCon .reselect,
+.noticeMarket .mainCon .allCar,
+.noticeMarket .mainCon .choseCar {
+  border-radius: 40px;
+}
+.noticeMarket .mainCon .addTask {
+  border-radius: 40px;
 }
 .noticeRecord .mainCon .seleBy {
   padding-top: 10px;
@@ -178,5 +216,24 @@
 }
 .addAdmin,
 .changePwd {
-  padding-top: 20px;
+  padding-top: 20px!important;
+}
+table td,
+table th {
+  text-align: center!important;
+}
+.iconBtnGroup .ant-btn {
+  border: 1px solid #1863fd;
+  color: #1863fd;
+}
+.ant-row {
+  display: flex!important;
+  justify-content: flex-start;
+}
+.searchInput {
+  width: 100%;
+}
+.searchBtn {
+  margin: 3px 0 0 10px;
+  border-radius: 40px;
 }

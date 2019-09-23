@@ -60,6 +60,16 @@ class LocaMap extends React.Component {
 		alert('指令已发送')
 	}
 
+	newBtnClick= e =>{
+		var obj = {
+            id: null,
+            title: '',
+        };
+		obj.id = 1042;
+		obj.title = 'name_' + obj.id;
+		carList.push(obj);
+	}
+
     render() {	
 
 		//车牌号列表
@@ -93,9 +103,14 @@ class LocaMap extends React.Component {
 					</Tabs>
 					<div className="mapDeatil">
 						<Map title="map" mapData={this.state.mapData}/>
-						<div className="carBtnGroup">
-							{carListBtn}
-							<Pagination className="pageDetail" showQuickJumper defaultCurrent={2} total={20} />
+						<div className="carNoListBox">
+							<div className="carBtnGroup">
+								{carListBtn}
+							</div>
+							<Button className="searchBtn newBtn" onClick={this.newBtnClick.bind(this)}>
+								+
+							</Button>
+							<Pagination className="pageDetail"  defaultCurrent={2} total={20} />
 						</div>
 					</div>
 				</div>		

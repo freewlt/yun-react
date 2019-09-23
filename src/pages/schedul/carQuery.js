@@ -48,8 +48,8 @@ class CarQuery extends React.Component {
                 render: (text, record) =>{
                     return (
                         <div className="iconBtnGroup">
-                            <a href="javascript:;" title='定位' className="iconBtn">定位</a>
-                            <a href="javascript:;" title='派单' className="iconBtn">派单</a>
+                            <Button className="searchBtn">定位</Button>
+                            <Button className="searchBtn">派单</Button>
                         </div>
                     )
                 },
@@ -162,10 +162,6 @@ class CarQuery extends React.Component {
                                 <Button className="searchBtn" type="primary" >
                                     查看所有车辆
                                 </Button>
-                            </Col>
-                        </Row>
-                        <Row className="seleBybtn">
-                            <Col className="btnGroup">
                                 <Button className="searchBtn" type="primary" >
                                     车辆查询结果
                                 </Button>

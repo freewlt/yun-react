@@ -77,8 +77,8 @@ class Administrator extends React.Component {
                 render: (text, record) =>{
                     return (
                         <div className="iconBtnGroup">
-                            <a href="javascript:;" title='编辑' className="iconBtn editIcon"></a>
-                            <a href="javascript:;" title='删除' className="iconBtn deleteIcon"></a>
+                            <Button className="searchBtn">编辑</Button>
+                            <Button className="searchBtn">删除</Button>
                         </div>
                     )
                 },
@@ -133,22 +133,18 @@ class Administrator extends React.Component {
                     <Form className="ant-advanced-search-form" onSubmit={this.handleSearch}>
                         <Row className="seleBybtn">
                             <Col className="btnGroup">
-                                <Button className="newBtn" type="primary" >
+                                <Button className="searchBtn" type="primary" >
                                     二级管理员信息  
                                     <span className="newIcon"></span>
                                 </Button>
-                            </Col>
-                        </Row>    
-                        <Row className="seleBybtn">
-                            <Col className="btnGroup">
-                                <Button className="newBtn" type="primary" >
+                                <Button className="searchBtn newBtn" type="primary" >
                                     <Link to="/enterpryInfo/addAdmin"> 
                                         新增管理员
                                         <span className="newIcon"></span>
                                     </Link> 
                                 </Button>
                             </Col>
-                        </Row>
+                        </Row>  
                         <Table
                             columns={this.columns}
                             rowKey={record => record.login.uuid}

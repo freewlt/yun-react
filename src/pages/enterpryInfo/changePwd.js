@@ -4,7 +4,7 @@ import { Button, Form, Input } from 'antd';
 import './../Tbase.css';
 
 const formItemLayout = {
-    labelCol: { span: 6 },
+    labelCol: { span: 3 },
     wrapperCol: { span: 6 },
   };
 
@@ -67,8 +67,8 @@ class ChangePwd extends React.Component {
             ],
           })(<Input placeholder="请输入确认新密码" />)}
         </Form.Item>
-        <Form.Item wrapperCol={{ span: 12, offset: 8 }}>
-          <Button type="primary" htmlType="submit">
+        <Form.Item wrapperCol={{ span: 12, offset: 3 }}>
+          <Button type="primary" className="searchBtn" htmlType="submit">
             提交
           </Button>
         </Form.Item>

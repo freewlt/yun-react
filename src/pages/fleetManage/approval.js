@@ -96,7 +96,7 @@ class Approval extends React.Component {
                 render: (text, record) =>{
                     return (
                         <div className="iconBtnGroup">
-                            <a href="javascript:;" title='派单' className="iconBtn">派单</a>
+                            <Button className="searchBtn">派单</Button>
                         </div>
                     )
                 },

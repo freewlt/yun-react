@@ -83,13 +83,14 @@ class driverManage extends React.Component {
         {
             title: '操作',
             dataIndex: 'operation',
+            width:'300px',
             render: (text, record) =>{
                 return (
                     <div className="iconBtnGroup">
-                        <a href="javascript:;" title='修改' className="iconBtn editIcon"></a>
-                        <a href="javascript:;" title='取消挂靠' className="iconBtn deleteIcon"></a>
-                        <a href="javascript:;" title='数据分析' className="iconBtn">数据分析</a>
-                        <a href="javascript:;" title='转账' className="iconBtn">转账</a>
+                        <Button className="searchBtn">修改</Button>
+                        <Button className="searchBtn">取消挂靠</Button>
+                        <Button className="searchBtn">数据分析</Button>
+                        <Button className="searchBtn">转账</Button>
                     </div>
                 )
             },
@@ -194,11 +195,11 @@ class driverManage extends React.Component {
                                         搜索
                                         <span className="searchIcon"></span>
                                     </Button>
-                                    <Button className="newBtn" type="primary">
+                                    <Button className="searchBtn newBtn" type="primary">
                                         新增
                                         <span className="newIcon"></span>
                                     </Button>
-                                    <Button className="newBtn" type="primary">
+                                    <Button className="searchBtn newBtn" type="primary">
                                         网点调拨
                                     </Button>
                                 </Col>

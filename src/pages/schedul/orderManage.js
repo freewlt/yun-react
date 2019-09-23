@@ -120,11 +120,11 @@ class OrderManage extends React.Component {
                 render: (text, record) =>{
                     return (
                         <div className="iconBtnGroup">
-                            <a href="javascript:;" title='派单' className="iconBtn">派单</a>
-                            <a href="javascript:;" title='撤单' className="iconBtn">撤单</a>
-                            <a href="javascript:;" title='打印' className="iconBtn"></a>
-                            <a href="javascript:;" title='明细' className="iconBtn">明细</a>
-                            <a href="javascript:;" title='修改' className="iconBtn">修改</a>
+                            <Button className="searchBtn">派单</Button>
+                            <Button className="searchBtn">撤单</Button>
+                            <Button className="searchBtn">打印</Button>
+                            <Button className="searchBtn">明细</Button>
+                            <Button className="searchBtn">修改</Button>
                         </div>
                     )
                 },
@@ -290,7 +290,7 @@ class OrderManage extends React.Component {
                         </Row>
                         <Row>
                           <Col className="btnGroup">
-                              <Button className="newBtn" type="primary">
+                              <Button className="searchBtn newBtn" type="primary">
                                   新增订单
                                   <span className="newIcon"></span>
                               </Button>
@@ -300,7 +300,7 @@ class OrderManage extends React.Component {
                               <Button className="searchBtn" type="primary" >
                                   批量派单
                               </Button>
-                              <Button className="newBtn" type="primary">
+                              <Button className="searchBtn newBtn" type="primary">
                                   附近派单
                               </Button>
                               <Button className="searchBtn" type="primary" >

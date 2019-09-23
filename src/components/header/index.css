@@ -3,7 +3,7 @@ body {
 }
 .header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100%;
   height: 90px;
   background: #1863fd;
@@ -15,117 +15,21 @@ body {
 .header .logoBox .logo {
   margin: 24px 20px;
 }
-.header .menuBox {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 60%;
-  height: 100%;
-  text-align: center;
-}
-.header .menuBox .menuNav {
-  padding: 21px 20px;
-  margin: 0 20px;
-  text-decoration: none;
-}
-.header .menuBox .menuNav .pic {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
-}
-.header .menuBox .menuNav .title {
-  color: #fff;
-}
-.header .menuBox .active {
-  background: url('../../static/images/header/bg.png');
-}
-.header .handleBox {
-  position: relative;
-  width: 26%;
-  height: 100%;
-  text-align: center;
-}
-.header .handleBox .handleDetail {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-height: 30px;
-  background: #187ffd;
-}
-.header .handleBox .handleDetail .detail {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 5px 10px;
-  color: #fff;
-}
-.header .handleBox .handleDetail .detail .iconPic {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 5px;
-  cursor: pointer;
-}
-.header .handleBox .handleDetail .detail span {
-  display: inline-block;
-  vertical-align: middle;
-}
-.header .handleBox .handleDetail .detail .close:hover {
-  transform: scale(1.1);
-  background: #da2008;
-}
-.header .handleBox .handleDetail .handle {
-  width: 130px;
-  height: 100%;
-  background: #2118dd;
-}
-.header .handleBox .handleBtnBox {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 80px;
-  margin-top: 42px;
-}
-.header .handleBox .handleBtnBox .handleBtn {
+.header .headerRt {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-right: 30px;
-  border-color: #fff;
-  background: #1863fd;
+  align-items: centerflex-start;
+  margin: 10px 3% 0 0;
 }
-.header .handleBox .handleBtnBox .handleBtn .duty {
-  width: 16px;
-  height: 16px;
-  margin-left: 10px;
-  background: url('../../static/images/header/duty.png') no-repeat;
-}
-.header .handleBox .handleBtnBox .selectLanguage {
-  min-width: 100px;
-}
-.header .handleBox .handleBtnBox .selectLanguage .ant-select-selection {
-  color: #fff;
-  background: none;
-  border-radius: 20px;
-}
-.header .handleBox .handleBtnBox .selectLanguage .ant-select-selection:hover {
-  border-color: #fff;
-  box-shadow: #fff;
-}
-.header .handleBox .handleBtnBox .selectLanguage .ant-select-selection:active {
-  border-color: #fff;
-  box-shadow: #fff;
-}
-.header .handleBox .handleBtnBox .selectLanguage .ant-select-selection:focus {
-  border-color: #fff;
-  box-shadow: #fff;
-}
-.header .handleBox .handleBtnBox .selectLanguage .ant-select-arrow {
+.header .headerRt a {
   color: #fff;
 }
-.header .handleBox .handleBtnBox .selectLanguage .ant-select-selection__placeholder,
-.header .handleBox .handleBtnBox .selectLanguage .ant-select-search__field__placeholder {
-  color: #fff;
+.header .headerRt .account {
+  padding-left: 20px;
+}
+.header .headerRt .account .accountPic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
 }

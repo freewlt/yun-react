@@ -29,9 +29,9 @@ class NoticeTemplate extends React.Component {
                 render: (text, record) =>{
                     return (
                         <div className="iconBtnGroup">
-                            <a href="javascript:;" title='修改' className="iconBtn">修改</a>
-                            <a href="javascript:;" title='删除' className="iconBtn">删除</a>
-                            <a href="javascript:;" title='发送消息' className="iconBtn">发送消息</a>
+                            <Button className="searchBtn">修改</Button>
+                            <Button className="searchBtn">删除</Button>
+                            <Button className="searchBtn">发送消息</Button>
                         </div>
                     )
                 },

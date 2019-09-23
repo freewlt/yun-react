@@ -51,20 +51,30 @@
       width:100%;
       height:80%;
       .locationMap{
-        width:100%;
+        width:85%;
         height:100%;
       }
-      .carBtnGroup{
+      .carNoListBox{
         width:14%;
-        margin: 0 auto;
-        text-align: center;
+        .carBtnGroup{
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          .searchBtn{
+           margin: 5px 0;
+          }
+        }
+        .newBtn{
+          width:90px;
+        }
         .pageDetail{
-          float: none;
+          clear: both;
           text-align: center;
-          padding-top: 10px;
+          margin-top: 10px;
           line-height: 3
         }
       }
+      
     }
   }
 }
@@ -133,10 +143,14 @@
   .position{
     position:relative;
   }
+  .newBtn, .reselect, .allCar, .choseCar{
+    border-radius: 40px;
+  }
   .addTask{
     position: absolute;
     right: 50%;
     bottom: 20%;
+    border-radius: 40px;
   }
 }
 //车辆查询
@@ -159,12 +173,10 @@
 }
 
 //运输管理
-.transportManage{
+.transportManage, .travelManage{
   .ant-tabs{
     max-width:1600px;
   }
-}
-.transportManage, .travelManage{
   .ant-calendar-picker{
     min-width:164px!important;
     margin-top: 3px;
@@ -175,6 +187,12 @@
 .noticeMarket{
   .mainCon{
     padding-top:10px;
+    .newBtn, .reselect, .allCar, .choseCar{
+      border-radius: 40px;
+    }
+    .addTask{
+      border-radius: 40px;
+    }
   }
 }
 //通知记录
@@ -242,5 +260,31 @@
   }
 }
 .addAdmin, .changePwd{
-  padding-top: 20px;
+  padding-top: 20px!important;
+}
+
+
+//table按钮
+table{
+  td,th{
+    text-align: center!important;
+  }
+}
+.iconBtnGroup{
+  .ant-btn{
+    border: 1px solid #1863fd;
+    color: #1863fd;
+  }
+}
+
+.ant-row{
+  display: flex!important;
+  justify-content: flex-start;
+}
+.searchInput{
+  width: 100%;
+}
+.searchBtn{
+  margin: 3px 0 0 10px;
+  border-radius: 40px;
 }

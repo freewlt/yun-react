@@ -41,7 +41,7 @@ class carManage extends React.Component {
             render: (text, record) =>{
                 return (
                     <div className="iconBtnGroup">
-                        <a href="javascript:;" title='派单' className="iconBtn">派单</a>
+                        <Button className="searchBtn">派单</Button>
                     </div>
                 )
             },
@@ -94,14 +94,12 @@ class carManage extends React.Component {
         <div className="mainBox carManage">
           <div className="mainCon">
                 <Form className="ant-advanced-search-form" onSubmit={this.handleSearch}>
-                    <Row className="seleBybtn">
+                    <Row className="seleBy">
                         <Col className="btnGroup">
                             <Button className="searchBtn" type="primary" >
                                 已挂靠车牌数量
                             </Button>
                         </Col>
-                    </Row>
-                    <Row className="seleBy">
                         <Col>
                             <Form.Item label="请输入车牌号">
                                 <Input className="searchInput"

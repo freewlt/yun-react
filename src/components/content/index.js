@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {Route} from 'react-router-dom';
 import Breadcrumb from '../breadcrumb';
-import SearchCriteria from '../../components/searchCriteria'
-import '../../pages/index.css'
+// import SearchCriteria from '../../components/searchCriteria'
+// import '../../pages/index.css'
 
 
 //位置监控

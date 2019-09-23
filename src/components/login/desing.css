@@ -1,0 +1,26 @@
+.loginBox {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  background: #fff;
+  border-radius: 10px;
+}
+.loginBox .loginForm {
+  width: 90%;
+  margin: 0 auto;
+}
+.loginBox .loginForm .title {
+  color: #1663ff;
+  padding-top: 40px;
+}
+.loginBox .loginForm .ant-form-item-control-wrapper {
+  width: 100%;
+}
+.loginBox .loginForm .forgetRemeber .ant-form-item-children {
+  display: flex;
+  justify-content: space-between;
+}
+.loginBox .loginForm .login-form-button {
+  width: 100%;
+  border-radius: 40px;
+}

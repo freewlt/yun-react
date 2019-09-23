@@ -79,8 +79,8 @@ class SeleCarrier extends React.Component {
                 render: (text, record) =>{
                     return (
                         <div className="iconBtnGroup">
-                            <a href="javascript:;" title='撤销任务' className="iconBtn">撤销任务</a>
-                            <a href="javascript:;" title='签收运单' className="iconBtn">签收运单</a>
+                            <Button className="searchBtn">撤销任务</Button>
+                            <Button className="searchBtn">签收运单</Button>
                         </div>
                     )
                 },

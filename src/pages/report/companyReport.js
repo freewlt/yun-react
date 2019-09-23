@@ -56,6 +56,7 @@ class CompanyReport extends Component {
                         name:item.lengend[0],
                         data: item.ydata1,
                         type: 'bar',
+                        barWidth: 70,
                     }
                 ]
             }
@@ -108,6 +109,7 @@ class CompanyReport extends Component {
                         name:item.lengend[0],
                         data: item.ydata1,
                         type: 'bar',
+                        barWidth: 70,
                     }
                 ]
             }
@@ -128,7 +130,7 @@ class CompanyReport extends Component {
                 },
                 xAxis: {
                     type: 'category',
-                    data: item.xdata
+                    data: item.xdata,
                 },
                 toolbox: {
                     show : true,
@@ -160,6 +162,7 @@ class CompanyReport extends Component {
                         name:item.lengend[0],
                         data: item.ydata1,
                         type: 'bar',
+                        barWidth: 70,
                     }
                 ]
             }

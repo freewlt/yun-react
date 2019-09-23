@@ -18,7 +18,7 @@ class AddOrder extends React.Component {
                                   <Col>
                                     <Form.Item label="起始位置">
                                       <span className="ant-form-text">北京市昌平区城北街道G6辅路附近</span>
-                                      <Button className="newBtn" type="primary">
+                                      <Button className="newBtn">
                                           选择地址并获取坐标
                                       </Button>
                                     </Form.Item>
@@ -42,7 +42,7 @@ class AddOrder extends React.Component {
                                   <Col>
                                     <Form.Item label="目的地地址">
                                       <span className="ant-form-text">测试1</span>
-                                      <Button className="newBtn" type="primary">
+                                      <Button className="newBtn">
                                           选择地址并获取坐标
                                       </Button>
                                     </Form.Item>
@@ -122,10 +122,10 @@ class AddOrder extends React.Component {
                                 <Row>
                                   <Col>
                                     <Form.Item label="发 布 状 态" className="publicStatus">
-                                      <Button className="allCar" type="primary">
+                                      <Button className="allCar">
                                           所有车辆
                                       </Button>
-                                      <Button className="choseCar" type="primary">
+                                      <Button className="choseCar">
                                           选择车辆
                                       </Button>
                                     </Form.Item>
@@ -142,7 +142,7 @@ class AddOrder extends React.Component {
                                   </Col>
                                   <Col>
                                     <Form.Item>
-                                        <Button className="reselect" type="primary">
+                                        <Button className="reselect">
                                             重新选择
                                         </Button>
                                     </Form.Item>
@@ -161,7 +161,7 @@ class AddOrder extends React.Component {
                                     <Col>
                                         <Form.Item label="起始地址">
                                             <span className="ant-form-text">北京市昌平区城北街道G6辅路附近</span>
-                                            <Button className="newBtn" type="primary">
+                                            <Button className="newBtn">
                                                 选择地址并获取坐标
                                             </Button>
                                         </Form.Item>
@@ -185,7 +185,7 @@ class AddOrder extends React.Component {
                                     <Col>
                                         <Form.Item label="目的地地址">
                                             <span className="ant-form-text">测试1</span>
-                                            <Button className="newBtn" type="primary">
+                                            <Button className="newBtn">
                                                 选择地址并获取坐标
                                             </Button>
                                         </Form.Item>
@@ -213,10 +213,10 @@ class AddOrder extends React.Component {
                                 <Row>
                                     <Col>
                                         <Form.Item label="发 布 状 态" className="publicStatus">
-                                            <Button className="allCar" type="primary">
+                                            <Button className="allCar">
                                                 所有车辆
                                             </Button>
-                                            <Button className="choseCar" type="primary">
+                                            <Button className="choseCar">
                                                 选择车辆
                                             </Button>
                                         </Form.Item>
@@ -233,7 +233,7 @@ class AddOrder extends React.Component {
                                     </Col>
                                     <Col>
                                         <Form.Item>
-                                            <Button className="reselect" type="primary">
+                                            <Button className="reselect">
                                                 重新选择
                                             </Button>
                                         </Form.Item>
@@ -252,7 +252,7 @@ class AddOrder extends React.Component {
                                     <Col>
                                         <Form.Item label="起始地址">
                                             <span className="ant-form-text">北京市昌平区城北街道G6辅路附近</span>
-                                            <Button className="newBtn" type="primary">
+                                            <Button className="newBtn">
                                                 选择地址并获取坐标
                                             </Button>
                                         </Form.Item>
@@ -276,7 +276,7 @@ class AddOrder extends React.Component {
                                     <Col>
                                         <Form.Item label="目的地地址">
                                             <span className="ant-form-text">测试1</span>
-                                            <Button className="newBtn" type="primary">
+                                            <Button className="newBtn">
                                                 选择地址并获取坐标
                                             </Button>
                                         </Form.Item>
@@ -314,10 +314,10 @@ class AddOrder extends React.Component {
                                 <Row>
                                     <Col>
                                         <Form.Item label="发 布 状 态" className="publicStatus">
-                                            <Button className="allCar" type="primary">
+                                            <Button className="allCar">
                                                 所有车辆
                                             </Button>
-                                            <Button className="choseCar" type="primary">
+                                            <Button className="choseCar">
                                                 选择车辆
                                             </Button>
                                         </Form.Item>
@@ -334,7 +334,7 @@ class AddOrder extends React.Component {
                                     </Col>
                                     <Col>
                                         <Form.Item>
-                                            <Button className="reselect" type="primary">
+                                            <Button className="reselect">
                                                 重新选择
                                             </Button>
                                         </Form.Item>
