@@ -1,13 +1,31 @@
 import React from 'react';
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
+
+import {withRouter} from "react-router-dom";
+
 import './desing.css';
+ 
 
 class Design extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+          username: '', //账号
+          pwd: '', // 密码
+          pwdConfirm: '', // 确认密码
+          type: 'worker', // 用户类型 默认求职者
+      }
+    }
+
     handleSubmit = e => {
       e.preventDefault();
       this.props.form.validateFields((err, values) => {
         if (!err) {
           console.log('Received values of form: ', values);
+          // history.push('/router')
+          console.log(this.props.history,'props')
+          this.props.history.push('/main')
+         
         }
       });
     }
@@ -58,4 +76,4 @@ class Design extends React.Component {
         );
     }
 }
-export default Form.create({ name: 'normal_login' })(Design);
+export default withRouter(Form.create({ name: 'normal_login' })(Design));
