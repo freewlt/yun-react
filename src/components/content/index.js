@@ -45,8 +45,8 @@ class Content extends Component {
     return (
       <div className="content">
         <Breadcrumb/>
-          <Route path="/main/index" exact component={Main}></Route>
-          <Route path="/location/index" exact component={Location}></Route>
+          <Route path="/yun/main/index" exact component={Main}></Route>
+          <Route path="/yun/location/index" exact component={Location}></Route>
           <Route path="/fleetManage/driverManage" exact component={DriverManage}></Route>
           <Route path="/fleetManage/carManage" exact component={CarManage}></Route>
           <Route path="/fleetManage/approval" exact component={Approval}></Route>

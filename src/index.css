@@ -25,14 +25,15 @@ code {
   position: relative;
   width: 100%;
   height: 100%;
-  background: #06021d;
+  background: #080a20;
 }
-.login .echarts-for-react {
+.login #main {
+  width: 100%;
   height: 100%!important;
 }
 .login .designBox {
   position: absolute;
-  top: 25%;
+  top: 24%;
   right: 10%;
   width: 380px;
 }

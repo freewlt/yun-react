@@ -1,11 +1,14 @@
+
+.logo{
+  margin: 0 0 30px 142px;
+}
 .loginBox{
     width: 100%;
     height: 100%;
-    padding-bottom: 30px;
     background: #fff;
     border-radius: 10px;
   .loginForm{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     .title{
       color: #1663ff;
@@ -13,6 +16,13 @@
     }
     .ant-form-item-control-wrapper{
       width: 100%;
+      .ant-input{
+        border-top: none;
+        border-left:none;
+        border-right: none;
+        border-radius: 0;
+        box-shadow: none;
+      }
     }
     .forgetRemeber{
       .ant-form-item-children{
@@ -23,6 +33,17 @@
     .login-form-button{
       width: 100%;
       border-radius: 40px;
+      background: #1663ff;
+    }
+    .slicerCodeBox{
+      .ant-form-item-children{
+        display: flex;
+        justify-content: space-between;
+      }
+      p{
+        margin-bottom: 0;
+        line-height: 30px;
+      }
     }
   }
 }
