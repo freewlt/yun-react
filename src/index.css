@@ -31,9 +31,19 @@ code {
   width: 100%;
   height: 100%!important;
 }
+.login #main .anchorBL,
+.login #main .BMap_cpyCtrl {
+  display: none;
+}
 .login .designBox {
   position: absolute;
   top: 24%;
   right: 10%;
   width: 380px;
+}
+.login .copyRight {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  color: #0a5567;
 }

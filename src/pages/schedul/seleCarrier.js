@@ -138,14 +138,12 @@ class SeleCarrier extends React.Component {
             <div className="mainBox seleCarrier">
                 <div className="mainCon">
                     <Form className="ant-advanced-search-form" onSubmit={this.handleSearch}>
-                        <Row className="seleBybtn">
+                        <Row className="seleBy">
                             <Col className="btnGroup">
                                 <Button className="searchBtn" type="primary" >
                                     已发布任务
                                 </Button>
                             </Col>
-                        </Row>
-                        <Row className="seleBy">
                             <Col>
                                 <Form.Item label="请输入订单号">
                                     <Input className="searchInput"

@@ -69,8 +69,8 @@
         }
         .pageDetail{
           clear: both;
-          text-align: center;
-          margin-top: 10px;
+          // text-align: center;
+          margin: 10px 0 0 10px;
           line-height: 3
         }
       }
@@ -147,9 +147,9 @@
     border-radius: 40px;
   }
   .addTask{
-    position: absolute;
-    right: 50%;
-    bottom: 20%;
+    // position: absolute;
+    // right: 50%;
+    // bottom: 20%;
     border-radius: 40px;
   }
 }
@@ -165,6 +165,7 @@
     }
     .btnGroup{
       justify-content: flex-end;
+      white-space: nowrap;
     }
     .seleBybtn{
       margin: 10px 0;
@@ -261,6 +262,54 @@
 }
 .addAdmin, .changePwd{
   padding-top: 20px!important;
+}
+.enterpryInfo{
+  .mainCon{
+    padding-top: 20px;
+    .ant-pagination{
+      display: none;
+    }
+    table{
+      &:first-child{
+        color: red;
+        td{
+          &:nth-child(4), &:nth-child(5){
+            color: #333;
+          }
+          .ant-upload-picture-card-wrapper{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .ant-upload-list-picture-card {
+              .ant-upload-list-item{
+                width: 85px;
+                height: 85px;
+                margin: 0 4px;
+                padding: 0;
+                border: none;
+              }
+            }
+            .ant-upload.ant-upload-select-picture-card{
+              width: auto;
+              height: auto;
+              margin: 0;
+              background: none;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+    .seleBy{
+      padding: 20px 0;
+      border-bottom: 1px solid #ccc;
+      .title{
+        display: inline-block;
+        width: 140px;
+        text-align: center;
+      }
+    }
+  }
 }
 
 

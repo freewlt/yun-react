@@ -28,8 +28,8 @@ class OrdeReport extends Component {
                     show : true,
                     feature : {
                         mark : {show: true},
-                        dataView : {show: true, readOnly: false},
-                        magicType: {show: true, type: ['line', 'bar']},
+                        // dataView : {show: true, readOnly: false},
+                        magicType: {show: true, type: ['bar']},
                         restore : {show: true},
                         saveAsImage : {show: true}
                     }
@@ -76,7 +76,7 @@ class OrdeReport extends Component {
     }
     pieInit = item =>{
         const _this =this;
-        axios.get('../json/pie.json').then((res) => {
+        axios.get('../../json/pie.json').then((res) => {
             const optionFir = this.pieOptionFri(res.data.data.orderReportList)
             _this.setState({
                 'option': optionFir,

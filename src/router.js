@@ -18,23 +18,21 @@ class App extends React.Component {
                         <Switch>
                             <Route exact path="/" component={Login}></Route>
                             <Route exact path="/login" component={Login}></Route>
-                            <Route exact path="/yun" component={Main}></Route>
+                            <Route  path="/yun" component={Main}></Route>
                         </Switch>
                     </BrowserRouter>
                 </div>
         );
     }
-    
 }
 
+const mapStateToProps = (state)=>{
+    return {
+    }
+};
+const mapDispatchToProps = (dispatch)=>{
+    return {
+    }
+};
 
-    const mapStateToProps = (state)=>{
-        return {
-        }
-    };
-    const mapDispatchToProps = (dispatch)=>{
-        return {
-        }
-    };
-  
-  export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default connect(mapStateToProps, mapDispatchToProps)(App)

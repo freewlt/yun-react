@@ -239,7 +239,7 @@ class EchartLf extends Component {
     }
     pieInit = item =>{
         const _this =this;
-        axios.get('../json/pie.json').then((res) => {
+        axios.get('../../json/pie.json').then((res) => {
             const optionFir = this.pieOptionFri(res.data.data.barList)
             const optionSec = this.pieOptionSec(res.data.data.lineList)
             const optionThi = this.pieOptionThi(res.data.data.barDoubleList)

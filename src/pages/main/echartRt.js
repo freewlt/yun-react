@@ -99,7 +99,7 @@ class EchartRt extends Component {
 
     pieInit = item =>{
         const _this =this;
-        axios.get('../json/pie.json').then((res) => {
+        axios.get('../../json/pie.json').then((res) => {
             const optionThi = this.pieOptionThi(res.data.data.barZFList)
             _this.setState({
                 'option3': optionThi,

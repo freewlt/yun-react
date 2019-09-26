@@ -31,7 +31,7 @@ class Main extends React.Component {
 
     componentDidMount(){
         const _this = this;
-        axios.get('../json/menuLf_yun.json').then((res) => {
+        axios.get('../../json/menuLf_yun.json').then((res) => {
             _this.setState({ menuList: res.data.list })
         });
     }

@@ -68,8 +68,7 @@
 }
 .PositionMonitor .mainCon .mapDeatil .carNoListBox .pageDetail {
   clear: both;
-  text-align: center;
-  margin-top: 10px;
+  margin: 10px 0 0 10px;
   line-height: 3;
 }
 .driverManage .seleBy .btnGroup {
@@ -129,9 +128,6 @@
   border-radius: 40px;
 }
 .addOrder .addTask {
-  position: absolute;
-  right: 50%;
-  bottom: 20%;
   border-radius: 40px;
 }
 .carQuery .mainCon {
@@ -145,6 +141,7 @@
 }
 .carQuery .mainCon .btnGroup {
   justify-content: flex-end;
+  white-space: nowrap;
 }
 .carQuery .mainCon .seleBybtn {
   margin: 10px 0;
@@ -217,6 +214,47 @@
 .addAdmin,
 .changePwd {
   padding-top: 20px!important;
+}
+.enterpryInfo .mainCon {
+  padding-top: 20px;
+}
+.enterpryInfo .mainCon .ant-pagination {
+  display: none;
+}
+.enterpryInfo .mainCon table:first-child {
+  color: red;
+}
+.enterpryInfo .mainCon table:first-child td:nth-child(4),
+.enterpryInfo .mainCon table:first-child td:nth-child(5) {
+  color: #333;
+}
+.enterpryInfo .mainCon table:first-child td .ant-upload-picture-card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.enterpryInfo .mainCon table:first-child td .ant-upload-picture-card-wrapper .ant-upload-list-picture-card .ant-upload-list-item {
+  width: 85px;
+  height: 85px;
+  margin: 0 4px;
+  padding: 0;
+  border: none;
+}
+.enterpryInfo .mainCon table:first-child td .ant-upload-picture-card-wrapper .ant-upload.ant-upload-select-picture-card {
+  width: auto;
+  height: auto;
+  margin: 0;
+  background: none;
+  border: none;
+}
+.enterpryInfo .mainCon .seleBy {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+.enterpryInfo .mainCon .seleBy .title {
+  display: inline-block;
+  width: 140px;
+  text-align: center;
 }
 table td,
 table th {

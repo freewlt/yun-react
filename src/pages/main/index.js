@@ -15,7 +15,7 @@ class Main extends Component {
 
     pieInit = item =>{
         const _this =this;
-        axios.get('../json/lineTable_yun.json').then((res) => {
+        axios.get('../../json/lineTable_yun.json').then((res) => {
             _this.setState({
                 'recordlist':res.data.data.recordList
             })

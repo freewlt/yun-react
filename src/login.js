@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactEcharts from 'echarts-for-react';
 import axios from 'axios';
 import Design from './components/login/design';
 
@@ -84,7 +83,6 @@ class LoginBox extends React.Component{
     }
 
     pieInit = item =>{
-        const _this =this;
         axios.get('../json/login.json').then((res) => {
             var myChart = echarts.init(document.getElementById('main'));
             var echarData =  res.data.data;
@@ -236,6 +234,7 @@ class LoginBox extends React.Component{
                 <div className="designBox">
                     <Design/>
                 </div>
+                <p className="copyRight">@易生活版权所有2015-2019</p>
             </div>
         )
     }

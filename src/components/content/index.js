@@ -47,32 +47,32 @@ class Content extends Component {
         <Breadcrumb/>
           <Route path="/yun/main/index" exact component={Main}></Route>
           <Route path="/yun/location/index" exact component={Location}></Route>
-          <Route path="/fleetManage/driverManage" exact component={DriverManage}></Route>
-          <Route path="/fleetManage/carManage" exact component={CarManage}></Route>
-          <Route path="/fleetManage/approval" exact component={Approval}></Route>
-          <Route path="/fleetManage/attached" exact component={Attached}></Route>
-          <Route path="/memberManage/index" exact component={MemberManage}></Route>
-          <Route path="/schedul/orderManage" exact component={OrderManage}></Route>
-          <Route path="/schedul/addOrder" exact component={AddOrder}></Route>
-          <Route path="/schedul/seleCarrier" exact component={SeleCarrier}></Route>
-          <Route path="/schedul/carQuery" exact component={CarQuery}></Route>
-          <Route path="/transportManage/transportManage" exact component={TransportManage}></Route>
-          <Route path="/transportManage/travelManage" exact component={TravelManage}></Route>
-          <Route path="/marketManage/noticeMarket" exact component={NoticeMarket}></Route>
-          <Route path="/marketManage/noticeRecord" exact component={NoticeRecord}></Route>
-          <Route path="/marketManage/noticeTemplate" exact component={NoticeTemplate}></Route>
-          <Route path="/report/ordeReport" exact component={OrdeReport}></Route>
-          <Route path="/report/caReport" exact component={CaReport}></Route>
-          <Route path="/report/departmentReport" exact component={DepartmentReport}></Route>
-          <Route path="/report/companyReport" exact component={CompanyReport}></Route>
-          <Route path="/settlement/orderSettlement" exact component={OrderSettlement}></Route>
-          <Route path="/settlement/waybillSettlement" exact component={WaybillSettlement}></Route>
-          <Route path="/paymentRecord/paymentRecord" exact component={PaymentRecord}></Route>
-          <Route path="/enterpryInfo/enterpryInfo" exact component={EnterpryInfo}></Route>
-          <Route path="/enterpryInfo/administrator" exact component={Administrator}></Route>
-          <Route path="/enterpryInfo/changePwd" exact component={ChangePwd}></Route>
-          <Route path="/enterpryInfo/systemInfo" exact component={SystemInfo}></Route>
-          <Route path="/enterpryInfo/addAdmin" exact component={AddAdmin}></Route>
+          <Route path="/yun/fleetManage/driverManage" exact component={DriverManage}></Route>
+          <Route path="/yun/fleetManage/carManage" exact component={CarManage}></Route>
+          <Route path="/yun/fleetManage/approval" exact component={Approval}></Route>
+          <Route path="/yun/fleetManage/attached" exact component={Attached}></Route>
+          <Route path="/yun/memberManage/index" exact component={MemberManage}></Route>
+          <Route path="/yun/schedul/orderManage" exact component={OrderManage}></Route>
+          <Route path="/yun/schedul/addOrder" exact component={AddOrder}></Route>
+          <Route path="/yun/schedul/seleCarrier" exact component={SeleCarrier}></Route>
+          <Route path="/yun/schedul/carQuery" exact component={CarQuery}></Route>
+          <Route path="/yun/transportManage/transportManage" exact component={TransportManage}></Route>
+          <Route path="/yun/transportManage/travelManage" exact component={TravelManage}></Route>
+          <Route path="/yun/marketManage/noticeMarket" exact component={NoticeMarket}></Route>
+          <Route path="/yun/marketManage/noticeRecord" exact component={NoticeRecord}></Route>
+          <Route path="/yun/marketManage/noticeTemplate" exact component={NoticeTemplate}></Route>
+          <Route path="/yun/report/ordeReport" exact component={OrdeReport}></Route>
+          <Route path="/yun/report/caReport" exact component={CaReport}></Route>
+          <Route path="/yun/report/departmentReport" exact component={DepartmentReport}></Route>
+          <Route path="/yun/report/companyReport" exact component={CompanyReport}></Route>
+          <Route path="/yun/settlement/orderSettlement" exact component={OrderSettlement}></Route>
+          <Route path="/yun/settlement/waybillSettlement" exact component={WaybillSettlement}></Route>
+          <Route path="/yun/paymentRecord/paymentRecord" exact component={PaymentRecord}></Route>
+          <Route path="/yun/enterpryInfo/enterpryInfo" exact component={EnterpryInfo}></Route>
+          <Route path="/yun/enterpryInfo/administrator" exact component={Administrator}></Route>
+          <Route path="/yun/enterpryInfo/changePwd" exact component={ChangePwd}></Route>
+          <Route path="/yun/enterpryInfo/systemInfo" exact component={SystemInfo}></Route>
+          <Route path="/yun/enterpryInfo/addAdmin" exact component={AddAdmin}></Route>
 
 
           <Route component={Home}></Route>
